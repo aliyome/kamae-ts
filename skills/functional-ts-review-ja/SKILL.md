@@ -1,6 +1,7 @@
 ---
 name: functional-ts-review-ja
 description: サーバーサイドTypeScriptコードを関数型ドメインモデリング原則に照らしてレビューする。`functional-ts-ja` スキルと同じナレッジを参照し、Discriminated Union、Companion Object、Branded Types、不変性、ファイル構成、純粋関数による状態遷移、網羅性チェック、Result型によるエラーハンドリング、境界の防御（スキーマバリデーション・`as` 禁止・PII 保護）、宣言的スタイル、型安全なテストデータをチェックする。
+license: MIT
 ---
 
 # Functional TypeScript Code Review

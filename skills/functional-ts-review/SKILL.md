@@ -1,6 +1,7 @@
 ---
 name: functional-ts-review
 description: Use when reviewing TypeScript server-side code for adherence to functional domain modeling principles. Checks the same principles enforced by the `functional-ts` skill — discriminated unions, companion objects, branded types, immutability, file structure, pure state transitions, exhaustiveness, Result-based error handling, boundary defense (schema validation, no `as`, PII protection), declarative style, and type-safe test data.
+license: MIT
 ---
 
 # Functional TypeScript Code Review
