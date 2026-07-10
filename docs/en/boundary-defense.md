@@ -34,7 +34,7 @@ At external boundaries (API requests, DB results, environment variables, file re
 The examples below use Zod syntax. For equivalent Valibot and ArkType syntax, see the validation-library guides linked above.
 
 ```typescript
-import { z } from "zod";
+import * as z from "zod";
 
 const CreateRequestInput = z.object({
   passengerId: z.string().uuid(),

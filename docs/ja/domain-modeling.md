@@ -136,7 +136,7 @@ type TaskRepository = {
 バリデーションライブラリを使っている場合は、そのブランド機能で定義します。スキーマの出力型が自動的にブランド付きになるため、`as` キャストが不要になります。以下は Zod の例です。
 
 ```typescript
-import { z } from "zod";
+import * as z from "zod";
 
 export const UserIdBrand = Symbol();
 const UserIdSchema = z.string().uuid().brand<typeof UserIdBrand>();

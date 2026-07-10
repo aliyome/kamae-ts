@@ -10,7 +10,7 @@ nav_order: 1
 ## 基本API
 
 ```typescript
-import { z } from "zod";
+import * as z from "zod";
 ```
 
 | 関数/型 | 説明 |

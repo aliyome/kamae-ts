@@ -136,7 +136,7 @@ TypeScript's structural subtyping makes two `string` values mutually assignable.
 When using a validation library, define Branded Types with its branding feature. The schema's output type is automatically branded, so no `as` cast is needed. Zod example:
 
 ```typescript
-import { z } from "zod";
+import * as z from "zod";
 
 export const UserIdBrand = Symbol();
 const UserIdSchema = z.string().uuid().brand<typeof UserIdBrand>();

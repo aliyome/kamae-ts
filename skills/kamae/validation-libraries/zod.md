@@ -3,7 +3,7 @@
 ## Basic API
 
 ```typescript
-import { z } from "zod";
+import * as z from "zod";
 ```
 
 | Function/Type | Description |

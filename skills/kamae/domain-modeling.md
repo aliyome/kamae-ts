@@ -130,7 +130,7 @@ Due to structural subtyping, two `string` values are compatible. Apply Branded T
 When using a validation library, define brands with its brand feature. The schema output type becomes automatically branded, eliminating the need for `as` casts. The following example uses Zod:
 
 ```typescript
-import { z } from "zod";
+import * as z from "zod";
 
 export const UserIdBrand = Symbol();
 const UserIdSchema = z.string().uuid().brand<typeof UserIdBrand>();

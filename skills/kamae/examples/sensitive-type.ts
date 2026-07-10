@@ -5,7 +5,7 @@
  * JSON.stringify / console.log / template literals. Integrates with Zod to auto-wrap at parse time.
  */
 
-import { z } from "zod";
+import * as z from "zod";
 
 // --- Sensitive Type ---
 

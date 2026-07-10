@@ -34,7 +34,7 @@ console.log(JSON.stringify(user satisfies LogPayload));
 以下の例は Zod の構文を使用しています。Valibot と ArkType の等価な構文は上記のバリデーションライブラリガイドを参照してください。
 
 ```typescript
-import { z } from "zod";
+import * as z from "zod";
 
 const CreateRequestInput = z.object({
   passengerId: z.string().uuid(),

@@ -7,7 +7,7 @@
 
 // --- Branded Types (z.brand) ---
 
-import { z } from "zod";
+import * as z from "zod";
 
 export const PassengerIdBrand = Symbol();
 const PassengerIdSchema = z.string().uuid().brand<typeof PassengerIdBrand>();
